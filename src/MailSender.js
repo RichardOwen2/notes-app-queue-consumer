@@ -22,9 +22,9 @@ class MailSender {
         {
           filename: 'notes.json',
           content,
-        }
-      ]
-    }
+        },
+      ],
+    };
 
     return this._transporter.sendMail(message);
   }
